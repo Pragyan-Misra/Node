@@ -1,3 +1,6 @@
+npm init
+npm i url
+
 # URL : Uniform Resource Locator
 
 ## Example: https://www.pragyan.dev/
@@ -14,7 +17,8 @@ Nested Path:
 /project/1
 /Pragyan-Misra/node/File_Handelling
 
-# Query Parameter: 
+# Query Parameter:
+
 ## Example: pragyan.dev/about?userid=1&a=2
 
 page opening is about and we have passed some extra info that userid is 1 and a = 2.
