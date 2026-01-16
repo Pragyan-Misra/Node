@@ -1,16 +1,2 @@
-1768379855484: New Req Rec.
-1768379855536: New Req Rec.
-1768379856707: New Req Rec.
-1768379856760: New Req Rec.
-1768380609126: /about New Req Rec.
-1768380609176: /favicon.ico New Req Rec.
-1768380624856: /contact New Req Rec.
-1768380624934: /favicon.ico New Req Rec.
-1768380637610: / New Req Rec.
-1768380637677: /favicon.ico New Req Rec.1768384718606: /?myname=pragyan New Req Rec.
-1768384718686: /favicon.ico New Req Rec.
-1768384748923: /contact?myname=pragyan New Req Rec.
-1768384748994: /favicon.ico New Req Rec.
-1768385089248: /contact?myname=pragyan New Req Rec.
-1768385089303: /favicon.ico New Req Rec.1768386188230: /contact?myname=John&userId=1&userType=main+client New Req Rec.
-1768386188299: /favicon.ico New Req Rec.
+1768389507345: / New Req Rec.
+1768389507408: /favicon.ico New Req Rec.
