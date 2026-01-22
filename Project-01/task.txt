@@ -1,0 +1,18 @@
+REST API - JSON
+
+GET /users - HTML Document Render
+GET /api/users - List all users
+
+GET /users/1 - Get user with ID 1
+GET /users/2 - Get user with ID 2
+
+Dyanmic Path Parameter:
+
+GET /api/users/:id
+:id -> VAriable | Dyanmic
+
+POST /api/users - Create new users
+
+PATCH /api/user/1 - Edit the user with ID 1
+
+DELETE /api/users/1 - Delete the User with ID 1
