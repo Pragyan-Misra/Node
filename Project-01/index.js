@@ -7,6 +7,18 @@ const fs = require("fs");
 // Middleware - Plugin
 app.use(express.urlencoded({ extended: false}));
 
+app.use((req, res, next) => {
+  fs.appendFile('log.txt', `${Date.now()}: ${req.ip} ${req.method}: ${req.path}\n`, (err, data) => {
+    next();
+  });
+  
+});
+
+app.use((rq, res, next) => {
+  console.log("Hello from Middleware 2");
+  next();
+});
+
 //ROUTES
 app.get("/users", (req, res) => {
   const html = `<ul>
@@ -15,6 +27,7 @@ app.get("/users", (req, res) => {
   res.send(html);
 });
 
+//  REST API
 app.get("/api/users", (req, res) => {
   return res.json(users);
 });
